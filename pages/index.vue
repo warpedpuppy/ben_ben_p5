@@ -1,14 +1,12 @@
 <template>
   <section class="container">
     <Navy/>
-    <div>
-      <h1 class="title">
-        bentripp.net
-      </h1>
-      <h2 class="subtitle">
-        Ben's Personal Website
-      </h2>
-    </div>
+    <div class="jumbotron">
+		 <div class="container" >
+			 <h1>Welcome</h1>
+			 <p>Welcome to bentripp.net. This website is a way for me to showcase my various projects, experiment with new ideas, and challenge myself intellectually and creatively. <br> <br>Enjoy!</p>
+		 </div>
+	 </div>
   </section>
 </template>
 
@@ -25,32 +23,30 @@ export default {
 </script>
 
 <style>
-/*.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.jumbotron{
+	background-color: rgb(242, 242, 242);
+	background-color: rgba(242, 242, 242, 0.7);
+	margin-bottom: 0px;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
   text-align: center;
+	color: #f9f9f9
+}
+.marketing h2 {
+  font-weight: normal;
+	color: #f9f9f9
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+	color: #f9f9f9
 }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-/*  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.marketing {
+	background-color: #f9f9f9;
+	width: 100vw;
+	margin-top: 0px;
+	padding-bottom: 20px;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}*/
 </style>
