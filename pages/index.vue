@@ -23,6 +23,13 @@ export default {
 </script>
 
 <style>
+body {
+  background: url('../static/Dramatic_Glacier.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .jumbotron{
 	background-color: rgb(242, 242, 242);
 	background-color: rgba(242, 242, 242, 0.7);
