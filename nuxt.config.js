@@ -1,4 +1,8 @@
 module.exports = {
+  modules: [
+  'bootstrap-vue/nuxt'
+
+  ],  
   /*
   ** Headers of the page
   */
@@ -12,6 +16,7 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+
   },
   /*
   ** Customize the progress bar color
@@ -36,4 +41,3 @@ module.exports = {
     }
   }
 }
-
