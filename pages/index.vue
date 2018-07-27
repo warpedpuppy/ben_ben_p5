@@ -28,7 +28,8 @@ import header from '~/components/header.vue'
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    header
   }
 }
 </script>
