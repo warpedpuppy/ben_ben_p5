@@ -24,6 +24,7 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import header from '~/components/header.vue'
 
 export default {
   components: {
@@ -62,4 +63,3 @@ export default {
   padding-top: 15px;
 }
 </style>
-
