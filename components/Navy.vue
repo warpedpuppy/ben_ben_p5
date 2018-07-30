@@ -12,10 +12,8 @@
 			 </div>
 			 <div id="navbar" class="navbar-collapse collapse">
 				 <ul class="nav navbar-nav navbar-right">
-					 <li><router-link class="link" to="/">Home</router-link></li>
-					 <li><router-link class="link" to="/projects/">Projects</router-link></li>
-					 <li><router-link class="link" to="/music/">Music</router-link></li>
-					 <li><router-link class="link" to="/photography/">Photography</router-link></li>
+					 <li><nuxt-link class="link" to="/">Home</nuxt-link></li>
+					 <li><nuxt-link class="link" to="/projects/">Projects</nuxt-link></li>
 				 </ul>
 			 </div>
 		 </div>

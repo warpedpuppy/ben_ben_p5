@@ -5,49 +5,54 @@
 </template>
 
 <style>
-
-html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+.form-control {
+  background-color: #f2f6fc;
+  border-color: #f2f6fc;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
+.giant {
+  font-size: 45vw;
+  color: #5bc0de;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+body {
+  background: url('../static/Dramatic_Glacier.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.jumbotron{
+	background-color: rgb(242, 242, 242);
+	background-color: rgba(242, 242, 242, 0.7);
+	margin-bottom: 0px;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+	color: #f9f9f9
+}
+.marketing h2 {
+  font-weight: normal;
+	color: #f9f9f9
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+	color: #f9f9f9
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.marketing {
+	background-color: #f9f9f9;
+  height: 33vh;
+	margin-top: 0px;
+	padding-bottom: 20px;
 }
 </style>

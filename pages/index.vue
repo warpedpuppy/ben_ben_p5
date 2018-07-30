@@ -11,49 +11,15 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
 import Navy from '~/components/Navy.vue'
 
 export default {
   components: {
-    AppLogo,
     Navy
   }
 }
 </script>
 
 <style>
-body {
-  background: url('../static/Dramatic_Glacier.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.jumbotron{
-	background-color: rgb(242, 242, 242);
-	background-color: rgba(242, 242, 242, 0.7);
-	margin-bottom: 0px;
-}
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-	color: #f9f9f9
-}
-.marketing h2 {
-  font-weight: normal;
-	color: #f9f9f9
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-	color: #f9f9f9
-}
 
-.marketing {
-	background-color: #f9f9f9;
-	width: 100vw;
-	margin-top: 0px;
-	padding-bottom: 20px;
-}
 </style>
