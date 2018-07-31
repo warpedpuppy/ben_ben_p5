@@ -35,7 +35,7 @@ export default function burst (p5) {
     },
     auto: function () {
         p5.line(this.a, this.b, p5.random(width), p5.random(height));
-    }
+    },
     mousePressed: function () {
       if (this.solidColors == true && this.rainbow == false) {
         this.currentColor = [p5.random(230)]
@@ -59,7 +59,7 @@ export default function burst (p5) {
         if (this.autoActive == false && this.connectedMode == false) {
             p5.line(this.a, this.b, this.mouseX, this.mouseY);
         } else if (this.autoActive == false && this.connectedMode == true){
-            triangle(this.a, this.b, this.pmouseX, this.pmouseY, this.mouseX, this.mouseY);
+            p5.triangle(this.a, this.b, this.pmouseX, this.pmouseY, this.mouseX, this.mouseY);
         }
     },
     keyPressed: function () {

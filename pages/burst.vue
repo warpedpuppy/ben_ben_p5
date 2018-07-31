@@ -1,6 +1,5 @@
 <template>
   <section class='container'>
-    <Navy/>
     <div id='banner'>
       <div id='help'>
         <p class='helpText'>new burst: click and drag<br>toggle multishade burst: x<br>toggle colors/grayscale: r</p>
@@ -12,10 +11,10 @@
   </section>
 </template>
 <script>
-import Navy from '~/components/Navy.vue'
-import * as p5 from 'p5'
-import burst from '~/proj/burst.js'
-import help from '~/proj/help.js'
+import Navy from '~/components/Navy.vue';
+import * as p5 from 'p5';
+import burst from '~/proj/burst';
+import help from '~/proj/help'
 
 export default {
   components: {
@@ -24,7 +23,7 @@ export default {
   mounted() {
     let p5 = require('p5');
     let burst = burst(p5);
-    burst.init()
+    burst.init();
   }
 }
 </script>
