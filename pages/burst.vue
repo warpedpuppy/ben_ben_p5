@@ -1,5 +1,9 @@
 <template>
   <section class='container'>
+
+    <Burst />
+
+
     <div id='banner'>
       <div id='help'>
         <p class='helpText'>new burst: click and drag<br>toggle multishade burst: x<br>toggle colors/grayscale: r</p>
@@ -11,21 +15,15 @@
   </section>
 </template>
 <script>
-import Navy from '~/components/Navy.vue';
-import * as p5 from 'p5';
-import burst from '~/proj/burst';
-import help from '~/proj/help'
-
-export default {
-  components: {
-    Navy
-  },
-  mounted() {
-    let p5 = require('p5');
-    let burst = burst(p5);
-    burst.init();
+  import Navy from '~/components/Navy.vue';
+  import Burst from '~/components/burst/burst.vue';
+  import help from '~/proj/help'
+  export default {
+    components: {
+      Navy,
+      Burst
+    }
   }
-}
 </script>
 <style>
 /*After I switch to this page the body changes. If I click back, the background stays blank, even after
