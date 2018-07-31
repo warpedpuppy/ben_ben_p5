@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'test-project',
+    title: 'Ben Tripp',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,8 +14,7 @@ module.exports = {
       { rel: 'stylesheet',
         href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
         integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
-        crossorigin: "anonymous" },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        crossorigin: "anonymous" }
     ],
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.min.js",

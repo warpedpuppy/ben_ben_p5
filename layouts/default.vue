@@ -51,7 +51,6 @@ body {
 
 .marketing {
 	background-color: #f9f9f9;
-  height: 33vh;
 	margin-top: 0px;
 	padding-bottom: 20px;
 }
